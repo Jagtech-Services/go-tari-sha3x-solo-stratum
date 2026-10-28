@@ -10,12 +10,12 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/Snipa22/core-go-lib/milieu"
-	"github.com/Snipa22/go-tari-grpc-lib/v3/nodeGRPC"
-	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/core-go-lib/milieu"
+	"github.com/Jagtech-Services/go-tari-grpc-lib/v3/tari_generated"
+	"github.com/Jagtech-Services/go-tari-lib/v3/nodeGRPC"
+	"github.com/Jagtech-Services/go-tari-sha3x-solo-stratum/subsystems/config"
+	"github.com/Jagtech-Services/go-tari-sha3x-solo-stratum/subsystems/tipDataCache"
 	"github.com/holiman/uint256"
-	"github.com/snipa22/go-tari-sha3x-solo-stratum/subsystems/config"
-	"github.com/snipa22/go-tari-sha3x-solo-stratum/subsystems/tipDataCache"
 	"golang.org/x/crypto/blake2b"
 )
 
